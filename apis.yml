@@ -1,7 +1,30 @@
 aid: prized
 name: Prized
-description: Prized is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Prized is an AI-powered platform that lets non-technical operations, support,
+  and finance teams build, deploy, and share secure internal tools without
+  engineering. Users describe a workflow in natural language (or bring their own
+  coding agent such as Claude Code) and Prized builds real software on company
+  data that is pre-connected and scoped, with least-privilege database access
+  per tool, credential isolation, outbound-traffic proxying, and an audit trail
+  on every access. Tools deploy behind corporate authentication and connect to
+  20+ services including Salesforce, Postgres, Slack, Stripe, and Notion. Prized
+  is a Y Combinator (Summer 2026) company founded by Hudson Griffith and Marinos
+  Eliades, both formerly of Gander (YC F24, acquired by Archer Aviation). Added
+  to the API Evangelist network via the VC-portfolio pipeline and enriched from
+  the company's public web surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://prized.dev
 url: https://raw.githubusercontent.com/api-evangelist/prized/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Internal Tools
+- AI
+- Low-Code
+- No-Code
+- Automation
+- Developer Tools
+- Data Integration
+- Security
+- Audit
 apis: []
+common:
+- type: DomainSecurity
+  url: security/prized-domain-security.yml
+- type: Website
+  url: https://prized.dev
+- type: Pricing
+  url: https://prized.dev/pricing
+- type: SignUp
+  url: https://prized.dev/sign-in
+- type: Login
+  url: https://prized.dev/sign-in
+- type: Blog
+  url: https://prized.dev/blog/backed-by-y-combinator
+- type: TermsOfService
+  url: https://prized.dev/legal/terms
+- type: PrivacyPolicy
+  url: https://prized.dev/legal/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
