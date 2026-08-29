@@ -13,6 +13,17 @@ description: >-
   Eliades, both formerly of Gander (YC F24, acquired by Archer Aviation). Added
   to the API Evangelist network via the VC-portfolio pipeline and enriched from
   the company's public web surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
