@@ -70,6 +70,11 @@ tags_raw:
 - Audit
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/archer-aviation/
+  name: Archer Aviation
+  x-relationship: acquired
+  x-evidence: "Prized is a Y Combinator (Summer 2026) company founded by Hudson Griffith and Marinos Eliades, both formerly of Gander (YC F24, acquired by Archer Aviation)."
 - type: DomainSecurity
   url: security/prized-domain-security.yml
 - type: Website
