@@ -1,0 +1,47 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://prized.dev/pricing
+sources:
+- https://prized.dev/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Plan slider ranges from $10 to $1,000 per month; page also shows a comparison of a Micro box at
+  $12 /mo on Prized vs other providers.
+plan_count: 4
+currency: USD
+plans:
+- name: Micro plan (credit plan)
+  price_text: $25 /month
+  price: 25
+  currency: USD
+  period: month
+  unit: 2 vCPU · 4 GB RAM · 80 GB disk
+  included_quota: Plan lands as credit every month; unused credit rolls over up to 2 months; boxes bill
+    by the hour
+- name: Free start
+  price_text: start free with $30 of credit, no card
+  price: 30
+  currency: USD
+  period: one-time
+  unit: credit
+  included_quota: $30 of credit, no card
+- name: Larger plan example (Extra Large + Small)
+  price_text: $1,100 plan
+  price: 1100
+  currency: USD
+  period: month
+  unit: plan credit
+  included_quota: Offered on the billing page when boxes outgrow the ladder
+- name: Startup/team deal
+  price_text: Book a call
+  period: none
