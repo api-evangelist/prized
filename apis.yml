@@ -70,6 +70,8 @@ tags_raw:
 - Audit
 apis: []
 common:
+- type: Plans
+  url: plans/prized-plans-pricing.yml
 - type: DomainSecurity
   url: security/prized-domain-security.yml
 - type: Website
