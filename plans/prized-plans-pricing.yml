@@ -45,3 +45,43 @@ plans:
 - name: Startup/team deal
   price_text: Book a call
   period: none
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - credit
+  - data
+  plans:
+  - name: Micro plan (credit plan)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - month
+  - name: Free start
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - one-time
+  - name: Larger plan example (Extra Large + Small)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: Startup/team deal
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
